@@ -32,7 +32,7 @@ CREATE TABLE `changelog` (
   `date_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `filename` (`filename`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `changelog` (
 
 LOCK TABLES `changelog` WRITE;
 /*!40000 ALTER TABLE `changelog` DISABLE KEYS */;
-INSERT INTO `changelog` VALUES (1,'software','EN','create_articles.sql','Creating table \"articles\"','software_EN_20170124_2112195065.sql','2017-01-24 20:12:32');
+INSERT INTO `changelog` VALUES (1,'software','EN','create_articles.sql','Creating table \"articles\"','software_EN_20170124_2112195065.sql','2017-01-24 20:12:32'),(2,'software','EN','insert-prvi.sql','Insert prvog ?lanka','software_EN_20170124_2139174863.sql','2017-01-24 20:39:32');
 /*!40000 ALTER TABLE `changelog` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-01-24 21:12:32
+-- Dump completed on 2017-01-24 21:39:33
