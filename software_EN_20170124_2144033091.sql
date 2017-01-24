@@ -1,0 +1,1 @@
+INSERT INTO `articles`(`title`, `articleText`) VALUES ('Treci clanak','Treci napisani clanak....')
