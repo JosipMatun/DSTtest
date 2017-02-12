@@ -1,1 +1,1 @@
-INSERT INTO `articles`(`title`, `articleText`) VALUES ('Prvi članak','Prvi napisani članak....')
+INSERT INTO `articles`(`title`, `articleText`) VALUES ('Prvi clanak','Prvi napisani clanak....')
